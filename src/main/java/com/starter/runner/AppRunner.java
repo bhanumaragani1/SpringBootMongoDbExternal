@@ -16,7 +16,7 @@ public class AppRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		repo.save(new Book("Spring", "XYZ", 2.2));
+		repo.save(new Book("Spring Boot", "ABC", 3.3));
 		
 		
 	}
